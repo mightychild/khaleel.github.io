@@ -1,0 +1,130 @@
+body {
+    /*background-color: rgb(244, 114, 158);*/
+    background-color: azure;
+    font-family: sans-serif;
+    font-style: normal;
+}
+header {
+    background-color: rgb(249, 89, 201);
+    color: lightblue;
+    margin: -7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+header #nav-div #nav-bar {
+    display: flex;
+}
+header #nav-div #nav-bar #links ul {
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+}
+header #nav-div #nav-bar #links ul li {
+    margin-left: 40px;
+}
+header #nav-div #nav-bar #links ul li a {
+    text-decoration: none;
+    color: lightskyblue;
+    font-weight: 100;
+}
+header #nav-div #nav-bar #links ul li a:hover {
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 100;
+}
+body main {
+    background-color: azure;
+    margin: 100px;
+    align-content: center;
+}
+.main #text  {
+    
+    font-weight: 100;
+}
+.main #about #image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+#img-h1 {
+    text-align: center;
+    font-weight: 100;
+}
+.main .info {
+    margin: 100px;
+}
+.main .info ol ul {
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+#info-list-id {
+    display: flex;
+    text-align: left;
+}
+ol, ul {
+    list-style: none;
+}
+#skill-set {
+    display: flex;
+    width: 100%;
+}
+.skill-list {
+    margin-left: -30px;
+list-style: circle;
+}
+#tool-list {
+    margin-right: 25px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.cert-content {
+    width: 22%;
+    margin-left: 25px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgb(0, 0, 0, 0.25),
+    0 10px 10px rgb(0,0,0,0.22);
+    transition: .4s;
+    float: left;
+}
+.main .info .cert-content .gallery img {
+    width: 150px;
+    height: 150px;
+    display: grid;
+}
+button {
+    border: none;
+    background: aqua;
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+a button {
+    color: navy;
+    text-decoration: none;
+    cursor: pointer;
+}
+footer {
+    background-color: rgb(249, 89, 201);
+    color: white;
+    text-align: center;
+    margin-top: 700px;
+    margin-left: -7px;
+    margin-bottom: -7px;
+    width: 100%;
+    padding: 10px;
+}
+
